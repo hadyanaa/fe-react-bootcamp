@@ -1,0 +1,437 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+.container {
+  min-height: 100vh;
+}
+
+
+footer.ant-layout-footer {
+  background-color: #70CACB;
+  padding: 15px 120px;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.ant-layout-footer h3{
+  color: #FFFFFF;
+}
+
+.ant-layout-sider {
+  background-color: #70CACB;
+  padding-top: 65px;
+}
+
+.site-layout-background .ant-menu {
+  background-color: #70CACB;
+  color: white;
+}
+
+li.ant-menu-submenu .ant-menu-title-content:hover,.ant-menu-item .ant-menu-title-content:hover {
+  font-weight: bold;
+}
+
+.ant-menu-item-selected{
+  font-weight: bold;
+}
+
+.site-layout-background .anticon svg {
+  /* background-color: #70CACB; */
+  color: white;
+  /* background-color: white; */
+}
+
+
+.site-layout-background li.ant-menu-item{
+  /* background-color: #FFF; */
+  color: white
+}
+
+.ant-menu-submenu-arrow:after, .ant-menu-submenu-arrow:before{
+  background-color: #FFFFFF;
+}
+
+.ant-menu-item-selected, .ant-menu-item-selected a, .ant-menu-item-selected a:hover{
+  color: #70CACB;
+}
+
+.site-layout-background .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #70CACB;
+  color: #70CACB;
+}
+.site-layout-background .ant-menu-title-content:hover {
+  color: #FFFFFF;
+}
+
+.site-layout-background .ant-menu-title-content {
+  color: #FFFFFF;
+  /* font-weight: bold; */
+}
+
+.site-layout-background li.ant-menu-item-only-child span {
+  color: white;
+}
+
+.site-layout-background li.ant-menu-item-only-child span:hover {
+  color: white;
+}
+
+
+.ant-layout-content {
+  padding-top: 65px;
+  background-color: white;
+}
+
+.dashboard-content {
+  padding: 25px;
+}
+
+form#basic {
+  padding: 25px;
+}
+
+form#order {
+  padding: 0px;
+}
+
+.ant-layout-header {
+  padding: 0 120px;
+}
+
+.ant-layout-header div ul li {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+} 
+
+header.ant-layout-header {
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #70CACB;
+  font-size: 24px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.font-inter{
+  font-family: 'Inter', sans-serif;
+}
+
+.quicklink p {
+  line-height: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+div.gradient {
+  height: 100%;
+  background-color: #70CACB;
+  background: linear-gradient(to top left, #70CACB, white);
+}
+
+body h1 {
+  font-size: 30px;
+  color: #70CACB;
+}
+
+.content {
+  margin: 50px 120px;
+}
+
+.icon h3{
+  text-align: center;
+  color: #70CACB;
+}
+.icon .ant-image-img {
+  width: 100px;
+}
+
+.icon .ant-image {
+  display: flex;
+  justify-content: center;
+}
+
+.icon div.ant-col{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.sideheader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imagehome .ant-image{
+  width: 100%;
+}
+
+h1.caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(30%);
+  color: #006f79;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  font-size: 3.5rem;
+}
+
+/* .card {
+  position: relative;
+}
+
+.ant-card {
+  width: 225px;
+} */
+
+/* .ant-card img {
+  margin: 0 auto; 
+  width: auto; 
+  max-height: 225px;
+}  */
+
+.ant-card h1 {
+  color: #939090;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.ant-card-bordered {
+  padding: 5px;
+  text-align: center;
+  height: 420px;
+}
+
+.ant-card-body {
+  padding: 0;
+}
+
+.ant-menu-inline .ant-menu-item:after {
+  border-right: 4px solid white;
+}
+
+.product-detail {
+  padding: 40px 35px 40px 35px;
+}
+
+.product-detail-category {
+  font-family: 'Inter', normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.1em;
+  color: #939090;
+}
+
+.product-detail-nama {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+  color: #939090;
+}
+
+.product-detail p {
+  text-align: justify;
+  font-size: 12px;
+  line-height: 20px;
+  text-indent: 2px;
+}
+
+.order-product {
+  padding: 40px 30px 20px 30px;
+}
+.order-product-h2 {
+  text-align: center;
+}
+
+/* category checkbox */
+.checkboxCategory .ant-checkbox{
+  display: none;
+}
+
+.checkboxCategory .ant-checkbox-wrapper {
+  color: #006F79;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border: 2px solid #006F79;
+  padding: 5px 20px;
+}
+
+.products .ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  color: #006F79;
+  background-color: #FFFFFF;
+  /* border-radius: 20px; */
+  border: 2px solid #006F79;
+  height: 37px;
+  margin-left: 10px; 
+}
+
+.checkboxCategory .ant-checkbox-wrapper-checked {
+  color: #FFFFFF;
+  background-color: #006F79;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+.transaksi {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-transaksi {
+  width: 50%;
+  height: 180px;
+  margin: 0px 270px 20px 350px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+}
+
+.row-transaksi {
+  margin-left: 10px;
+}
+.button-transaksi {
+  margin-top: 20px;
+}
+
+.btn-1 {
+  margin-left: 450px;
+  margin-bottom: 100px;
+  color: #70CACB;
+  background-color: #FFFFFF;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.btn-2 {
+  margin-right: 300px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  background-color: #70CACB;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card-shop-cart {
+  width: 100%;
+  height: 150px;
+  margin: 0px 15px 30px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+}
+
+.card-shop-cart h1{
+  text-align: left;
+}
+
+.button-shop-cart {
+  margin: -5px 15px 0px 15px;
+  height: 50px;
+  padding: 9px 12px;
+  background-color: #70CACB;
+}
+
+.card-order {
+  width: 100%;
+  height: 200px;
+  margin: 0px 15px 30px 0px;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 4px;
+}
+
+.ant-list-item {
+  padding: 0px;
+}
+
+.card-order-header {
+  box-sizing: border-box;
+
+  border: 1px solid #CDCDCD;
+  border-radius: 5px;
+}
+
+.card-order-header p{
+  text-align: left; 
+  color: #000000; 
+  font-size: 15px; 
+  margin: 10px 0px 10px 20px;
+}
+
+.ant-card-cover img {
+  object-fit: contain;
+  height: 300px;
+}
+
+.card-dashboard{
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-profile{
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+}
+
+.ant-btn-primary{
+  background-color: #70CACB;
+  margin: 0px;
+}
+
+.ant-input-search .ant-input-affix-wrapper, .ant-input-search-button {
+  border: none;
+}
